@@ -131,9 +131,10 @@ main {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-auto-flow: column;
-  grid-column-gap: 10rem;
-  grid-row-gap: 10rem;
+  grid-column-gap: 5rem;
+  grid-row-gap: 5rem;
   margin-top: 5rem;
+  align-items: baseline;
 }
 
 .content-box {
@@ -180,56 +181,48 @@ main {
 
 footer {
   background-color: var(--base);
+  padding: 3rem 5rem 8rem 10rem;
+}
+
+#inner-footer {
+  border: 1px solid red;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1900px;
+  position: relative;
+  padding-bottom: 100px;
+  justify-content: space-around;
   display: flex;
   flex-wrap: wrap;
-  padding: 3rem 5rem 8rem 10rem;
-  position: relative;
-  height: 100%;
 }
 
-.footer-info {
-  width: 30rem;
+.footer-column {
+  display: flex;
+  flex-direction: column;
+}
+.footer-column a {
+  font-size: 1.8rem;
 }
 
-.footer-info h1 {
-  font-size: 3rem;
-  color: var(--white);
-}
-
-.footer-info h2 {
-  margin-top: 4rem;
-  color: var(--white);
-}
-
-.footer-info p {
-  font-size: 1.6rem;
-  color: var(--white);
-}
-
-.footer-info ul {
+.footer-column strong {
   margin-top: 1rem;
-}
-
-.footer-info li {
-  font-size: 2rem;
-  color: var(--white);
-}
-
-#absolute-footer {
-  margin-top: 16rem;
-  margin-right: 20rem;
-  z-index: 99;
-}
-
-#absolute-footer p {
-  color: var(--white);
   font-size: 1.6rem;
 }
 
-#logo-footer {
-  width: 3rem;
+.footer-title {
+  font-size: 2.5rem;
 }
 
-#logo-footer img {
-  max-width: 100%;
+#copyright {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#copyright p{
+  font-size: 1.6rem;
+}
+
+#copyright img{
+  width: 3rem;
 }
