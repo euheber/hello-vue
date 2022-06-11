@@ -177,7 +177,7 @@ main {
 
 footer {
   background-color: var(--base);
-  padding: 3rem 5rem 0rem 10rem;
+  padding: 3rem 5rem 2rem 10rem;
   width: 100%;
 }
 
