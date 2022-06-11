@@ -131,7 +131,6 @@ main {
   margin-top: 2rem;
   padding: 5rem;
   gap: 3rem;
-  border: 1px solid red;
 }
 
 .content-box {
@@ -183,7 +182,6 @@ footer {
 }
 
 #inner-footer {
-  border: 1px solid red;
   margin: 0px auto;
   width: 90%;
   max-width: 1200px;
@@ -199,6 +197,12 @@ footer {
 }
 .footer-column a {
   font-size: 1.8rem;
+  transition: .5s ease;
+  cursor: pointer;
+}
+
+.footer-column a:hover{
+  color: var(--principal);
 }
 
 .footer-column strong {
