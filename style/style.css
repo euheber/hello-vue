@@ -177,7 +177,7 @@ main {
 
 footer {
   background-color: var(--base);
-  padding: 3rem 5rem 8rem 10rem;
+  padding: 3rem 5rem 0rem 10rem;
   width: 100%;
 }
 
@@ -193,6 +193,7 @@ footer {
 .footer-column {
   display: flex;
   flex-direction: column;
+  width: 15rem;
 }
 .footer-column a {
   font-size: 1.8rem;
@@ -231,7 +232,7 @@ footer {
 
 @media(min-width: 1200px){
   html{
-    font-size: 80%;
+    font-size: 70%;
   }
 }
 
