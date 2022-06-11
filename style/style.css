@@ -185,7 +185,6 @@ footer {
   margin: 0px auto;
   width: 90%;
   max-width: 1200px;
-  position: relative;
   gap: 2rem;
   display: flex;
   flex-wrap: wrap;
@@ -236,6 +235,12 @@ footer {
   }
 }
 
+@media(max-width: 1096px){
+  #copyright {
+    margin-top: 0rem; 
+   }
+}
+
 @media (max-width: 900px){
   main{
     flex-direction: column;
@@ -255,13 +260,11 @@ footer {
 }
 
 @media (max-width: 664px){
-  #copyright{
-    margin-top: 1rem;
-  }
 
   #search-box h1 {
   text-align: center;
   }
+  
 }
 
 @media(max-width: 490px){
